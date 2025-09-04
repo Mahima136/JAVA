@@ -1,0 +1,21 @@
+package matrixmultiplication;
+
+public class Matrixmultiplication {
+	public static void main(String[] args) {
+		int[][]matrix = new int[5][5];
+		int value = 1;
+		for (int i =0; i < 5; i++) {
+			for(int j =0; j < 5; j++) {
+				matrix[i][j] = value++;
+			}
+		}
+		System.out.println("The 5*5 Matrix:");
+		for(int i = 0;i<5;i++) {
+			for(int j = 0;j < 5;j++) {
+				System.out.print(matrix[i][j] + "\t");
+			}
+			System.out.println();
+		}
+	}
+
+}

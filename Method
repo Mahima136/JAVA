@@ -1,0 +1,15 @@
+package method;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner kbd=new Scanner(System.in);
+		int n=kbd.nextInt();
+		Main obj=new Main();
+		int noofdigit=obj.count(n);
+		System.out.println(noofdigit);
+		System.out.println(obj.sum(n));
+	}
+
+}
